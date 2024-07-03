@@ -1,0 +1,24 @@
+<main class="mainBody">
+    <mat-card class="MatCard">
+        <mat-card-content style="height: 100%; width: 100%">
+            <form class="example-form" style="height: 90%; width: 100%;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Username</mat-label>
+                        <input matInput type="text" placeholder="Ex. Pizza" value="Sushi">
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Password</mat-label>
+                        <input type="password" matInput placeholder="Ex. Pizza" value="Sushi">
+                    </mat-form-field>
+                </form>
+            <button class="secondButton" (click)="login()"  mat-raised-button  color="primary">
+                login
+            </button>
+        </mat-card-content>
+    </mat-card>
+</main>
+
